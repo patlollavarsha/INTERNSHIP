@@ -4,13 +4,13 @@ Educational prototype comparing Linear Regression and Gradient Boosting with
 historical baselines for six Indian crops (1990–2013).
 
 ## Open the notebook
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/patlollavarsha/cropcast/blob/main/CropCast.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/patlollavarsha/INTERNSHIP/blob/main/CropCast.ipynb)
+
+Colab share link: https://colab.research.google.com/drive/1D_Ly3ijqx-NRos6hontn1AwZ4RMebDAP?usp=sharing
 
 ## Files
 - `CropCast.ipynb`: full notebook (data preparation, models, validation, prediction form)
-- `annual_crop_table.csv`: prepared annual dataset (138 records)
-- `app.py`: Streamlit prediction form (web version)
-- `requirements.txt`: Python packages
+- `yield_df.csv`: original dataset used by the notebook
 
 ## Key result
 The last-known-yield baseline had the lowest mean validation MAE (0.4081 t/ha).
