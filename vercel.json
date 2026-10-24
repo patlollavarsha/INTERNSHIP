@@ -3,8 +3,5 @@
     "api/index.py": {
       "includeFiles": "yield_df.csv"
     }
-  },
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
-  ]
+  }
 }
