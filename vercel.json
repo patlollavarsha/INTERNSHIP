@@ -1,10 +1,10 @@
 {
-  "builds": [
-    {
-      "src": "api/index.py",
-      "use": "@vercel/python",
-      "config": { "includeFiles": ["yield_df.csv", "cropcast.py"] }
+  "functions": {
+    "api/index.py": {
+      "includeFiles": "yield_df.csv"
     }
-  ],
-  "routes": [{ "src": "/(.*)", "dest": "api/index.py" }]
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ]
 }
